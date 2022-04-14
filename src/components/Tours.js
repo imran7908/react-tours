@@ -1,10 +1,11 @@
 import React from 'react'
 import Tour from './Tour'
+import './styles.css'
 
 const Tours = ({ tours, removeTour }) => {
   return (
     <section>
-        <div>
+        <div className='title'>
             <h2>Our Tours</h2>
             <div className='underline'></div>
         </div>
