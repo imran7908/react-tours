@@ -94,7 +94,7 @@ p {
     padding: 0.25rem 0.5rem;
     border-radius: 0.25rem;
     text-transform: capitalize;
-    color: var(--clr-white);
+    color: white;
     letter-spacing: 0.1rem;
     border-color: transparent;
     cursor: pointer;

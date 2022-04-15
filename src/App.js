@@ -23,9 +23,9 @@ const App = () => {
   if(tours.length === 0) {
     return (
       <main>
-        <div>
+        <div className='title'>
           <h2>no tours left</h2>
-          <button onClick={() => setTours(info)}>refresh</button>
+          <button className='btn' onClick={() => setTours(info)}>refresh</button>
         </div>
       </main>
     )
